@@ -1,0 +1,22 @@
+#links {
+    text-align: center;
+  }
+  
+  #linkTable li {
+    color: #431c5d;
+    display: inline;
+    list-style-type: none;
+    padding-right: 40px;
+    font-family: "Asul", sans-serif;
+    font-size: 20px;
+  }
+  
+  #linkTable a:link {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  #linkTable a:visited {
+    color: inherit;
+    text-decoration: none;
+  }
