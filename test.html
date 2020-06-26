@@ -4,19 +4,20 @@
         <title>Joe Pires - Webpage</title>
         <link rel="stylesheet" type="text/css" href="fullpage/fullPage.css" />
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body>  
         <div id="fullpage">
             <div class="section active" id="introSection">
-                <h1>Joe Pires</h1>
+                <h1 id="titleName">Joe Pires</h1>
                 <h2>
-                    Welcome to my webpage, and allow me to introduce myself. My name is Joe. I'm 
-                    currently a software engineer at Amazon, and I'm a recent graduate at the
+                    Welcome to my webpage, and allow me to introduce myself. My name is Joe. I've 
+                    worked as a software engineer at Amazon, and I'm a recent graduate at the
                     University of Pennsylvania with a major in political science (concentrating on 
                     comparative politics) and a minor in computer science.
                 </h2>
                 <h2>
-                    I'm moving back to the east coast and looking for a job in the Greater NYC/Boston
+                    I'm back on east coast and looking for a job in the Greater NYC/Boston
                     area. If you're looking for someone, please reach out to me.
                 </h2>
             </div>
@@ -85,7 +86,7 @@
                         <a href="ProfessionalResume.pdf">Resume</a>
                       </li>
                       <li id="contact">
-                        <a href="mailto:piresjo@seas.upenn.edu">Contact</a>
+                        <a href="mailto:pires.joe.a@gmail.com">Contact</a>
                       </li>
                     </ul>
                   </div>
@@ -96,8 +97,17 @@
         <script type="text/javascript" src="fullpage/fullpage.js"></script>
         <script type="text/javascript">
 	        var myFullpage = new fullpage('#fullpage', {
-		        sectionsColor: ['#f2f2f2', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff', '#FFD4CC']
+		        sectionsColor: ['#EDC7B7', '#EEE2DC', '#BAB2B5', '#123C69', '#AC3B61']
 	        });
         </script>
     </body>
+
+    <script>
+        // TODO - Need to make the starfield/snowfall background work with fullpage
+
+        /*var container = document.getElementById('introSection');
+        var starfield = new Starfield();
+        starfield.init(container);
+        starfield.begin();*/
+      </script>
 </html>

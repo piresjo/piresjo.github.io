@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Snowfield/Starfield Test</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="starfield.js"></script>
+    </head>
+    <body>  
+        <div id="page">
+        </div>
+    </body>
+
+    <script>
+        var container = document.getElementById('page');
+        var starfield = new BackgroundStarfield();
+        starfield.init(container);
+        starfield.begin();
+      </script>
+</html>

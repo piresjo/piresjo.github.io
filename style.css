@@ -1,22 +1,41 @@
 #links {
-    text-align: center;
-  }
+  text-align: center;
+}
   
-  #linkTable li {
-    color: #431c5d;
-    display: inline;
-    list-style-type: none;
-    padding-right: 40px;
-    font-family: "Asul", sans-serif;
-    font-size: 20px;
-  }
+#linkTable li {
+  color: #e9ccc7;
+  display: inline;
+  list-style-type: none;
+  padding-right: 40px;
+  font-family: "Asul", sans-serif;
+  font-size: 20px;
+}
   
-  #linkTable a:link {
-    color: inherit;
-    text-decoration: none;
-  }
+#linkTable a:link {
+  color: inherit;
+  text-decoration: none;
+}
   
-  #linkTable a:visited {
-    color: inherit;
-    text-decoration: none;
-  }
+#linkTable a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+#introSection {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  padding: 1em;
+  font-family: 'Roboto', sans-serif;
+}
+
+h4 {
+  padding: 1em;
+  font-family: "Asul", sans-serif;
+}
