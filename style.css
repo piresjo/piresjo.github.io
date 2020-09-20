@@ -1,7 +1,7 @@
 #links {
   text-align: center;
 }
-  
+
 #linkTable li {
   color: #e9ccc7;
   display: inline;
@@ -10,32 +10,81 @@
   font-family: "Asul", sans-serif;
   font-size: 20px;
 }
-  
+
 #linkTable a:link {
   color: inherit;
   text-decoration: none;
 }
-  
+
 #linkTable a:visited {
   color: inherit;
   text-decoration: none;
 }
 
 #introSection {
-  font-family: 'Roboto', sans-serif;
+  color: #900C3F;
 }
 
-h1 {
+#introSection h1 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
-h2 {
-  padding: 1em;
-  font-family: 'Roboto', sans-serif;
+#introSection h2 {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
-h4 {
-  padding: 1em;
-  font-family: "Asul", sans-serif;
+#projectSection {
+  color: #581845;
+  position: relative;
+}
+
+#projectSection h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+#projectSection h2 {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.linkBox {
+  font-family: 'Open Sans', sans-serif;
+  position:absolute;
+  bottom:0;
+  text-align: left;
+  margin-left: 3.625%;
+}
+
+#writingSection {
+  color: #DAF7A6
+}
+
+#writingSection h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+#writingSection h2 {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#writingSection h4 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: right;
+}
+
+#linksSection {
+  color: #FFC300
+}
+
+#linksSection h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
 }
