@@ -6,7 +6,7 @@
         <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
         <!-- TODO: Find Better Way To Link FullPage -->
         <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
-        <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.js"></script>
+        <script type="text/javascript" src="node_modules/fullpage.js/dist/fullpage.extensions.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css" />
         <!-- Fonts and Bootstrap Stuff -->
         <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
@@ -195,12 +195,16 @@
             </div>
         </div>
 
-
         <script type="text/javascript">
 	        var myFullpage = new fullpage('#fullpage', {
             licenseKey: '982B6F67-AE744C97-9611B861-7B75AED0',
-		        sectionsColor: ['#DAF7A6', '#FFC300', '#FF5733', '#C70039', '#900C3F']
+		        sectionsColor: ['#DAF7A6', '#FFC300', '#FF5733', '#C70039', '#900C3F'],
+            autoScrolling:true,
+          	scrollHorizontally: true
 	        });
+
+          //methods
+          fullpage_api.setAllowScrolling(false);
         </script>
     </body>
 
