@@ -1,3 +1,110 @@
+html, body {
+  height: 100%;
+}
+
+#introSection {
+  color: #900C3F;
+  width: 100%;
+  height: 100%;
+  background-color: #DAF7A6;
+}
+
+#introSection h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#introSection h3 {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#introSection body {
+  height: 100%;
+}
+
+#projectSection {
+  color: #581845;
+  position: relative;
+  width: 100%;
+  background-color: #FFC300;
+  display: flex;
+  flex-direction: column;
+}
+
+
+#projectSection h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#projectSection h3 {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-bottom: 10px;
+}
+
+#projects {
+  background-color: #FFC300;
+}
+
+.project {
+  padding: 10px;
+  float: left;
+  width: 50%;
+  height: 50%;
+  margin: 0;
+}
+
+.project h3 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.project h4 {
+  font-family: 'Raleway', sans-serif;
+}
+
+#workSection {
+  color: #DAF7A6;
+  background-color: #FF5733;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#workSection h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#workSection h3 {
+  font-family: 'Raleway', sans-serif;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#workSection h2 {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+
+.skillTable {
+  width:85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #links {
   text-align: center;
 }
@@ -9,6 +116,7 @@
   padding-right: 40px;
   font-family: "Asul", sans-serif;
   font-size: 20px;
+  margin: 0;
 }
 
 #linkTable a:link {
@@ -21,70 +129,21 @@
   text-decoration: none;
 }
 
-#introSection {
-  color: #900C3F;
-}
-
-#introSection h1 {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-}
-
-#introSection h2 {
-  font-family: 'Raleway', sans-serif;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-#projectSection {
-  color: #581845;
-  position: relative;
-}
-
-#projectSection h1 {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-}
-
-#projectSection h2 {
-  font-family: 'Raleway', sans-serif;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-.linkBox {
-  font-family: 'Open Sans', sans-serif;
-  position:absolute;
-  bottom:0;
-  text-align: left;
-  margin-left: 3.625%;
-}
-
-#writingSection {
-  color: #DAF7A6
-}
-
-#writingSection h1 {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-}
-
-#writingSection h2 {
-  font-family: 'Raleway', sans-serif;
-  margin-left: 15%;
-  margin-right: 15%;
-}
-
-#writingSection h4 {
-  font-family: 'Open Sans', sans-serif;
-  text-align: right;
-}
-
 #linksSection {
-  color: #FFC300
+  color: #FFC300;
+  background-color: #C70039;
+  margin: 0;
+  padding-top: 25%;
+  padding-bottom: 25%;
 }
 
 #linksSection h1 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  padding: 0;
+}
+.linkBox {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  margin-left: 2%;
 }

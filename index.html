@@ -1,211 +1,278 @@
 <!DOCTYPE html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-        <title>Joe Pires - Webpage</title>
-        <!-- Add favicon -->
-        <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
-        <!-- TODO: Find Better Way To Link FullPage -->
-        <link rel="stylesheet" type="text/css" href="node_modules/fullpage.js/dist/fullpage.css" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <!-- Fonts and Bootstrap Stuff -->
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet"></link>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet"></link>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"></link>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="node_modules/fullpage.js/dist/fullpage.extensions.min.js"></script>
-    </head>
-    <body>
+<html lang="en" dir="ltr">
 
-        <div id="fullpage">
-          <!-- TODO: Integrate NavBar for all sections -->
-          <div id="navbar">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-              <a class="navbar-brand" href="#">Joe Pires - Home</a>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Writings</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Joe Pires - Webpage</title>
+  <!-- Add favicon -->
+  <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <!-- Fonts and Bootstrap Stuff -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+  </link>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab&display=swap" rel="stylesheet">
+  </link>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  </link>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+</head>
 
-          </div>
-            <div class="section active" id="introSection">
-                <h1 id="titleName">Joe Pires</h1>
-                <h2>
-                    Welcome to my webpage, and allow me to introduce myself. My name is Joe. I've
-                    worked as a software engineer at Amazon, and I'm a recent graduate at the
-                    University of Pennsylvania with a major in political science (concentrating on
-                    comparative politics) and a minor in computer science.
-                </h2>
-                <h2>
-                    I'm back on east coast and looking for a job in the Greater NYC/Boston
-                    area. If you're looking for someone, please reach out to me.
-                </h2>
-            </div>
-            <div class="section" id="projectSection">
-                <div class="slide active">
-                    <h1>
-                        Projects I've Been Working On
-                    </h1>
-                    <h2>
-                        Since starting at Amazon, I haven't been able to put much work into
-                        side projects, but here is a sample of what I've worked on over the years, and
-                        some projects I'm starting out on.
-                    </h2>
-                    <div class="linkBox">
-                      <h4>
-                          See more on <a href="http://github.com/piresjo">my GitHub page</a> and <a href="projects.html">my projects page.</a>
-                      </h4>
-                    </div>
-                </div>
-                <div class="slide"><h1></h1>
-                    <h1>
-                        Pac-Man GB
-                    </h1>
-                    <h2>
-                        New project I'm starting. Using the C compiler GBDK, create a more playable
-                        Game Boy version of the 1980 Namco arcade game.
-                    </h2>
-                    <h2>
-                        More info and details to come soon.
-                    </h2>
-                    <div class="linkBox">
-                      <h4>
-                          See more on <a href="http://github.com/piresjo">my GitHub page</a> and <a href="projects.html">my projects page.</a>
-                      </h4>
-                    </div>
-                </div>
-                <div class="slide"><h1></h1>
-                    <h1>
-                        JavaGalaga
-                    </h1>
-                    <h2>
-                        One of my earliest projects. Using Swing, try to recreate the 1981 game
-                        Galaga.
-                    </h2>
-                    <h2>
-                        I might be refining this so it plays better within the next few months.
-                    </h2>
-                    <div class="linkBox">
-                      <h4>
-                          See more on <a href="http://github.com/piresjo">my GitHub page</a> and <a href="projects.html">my projects page.</a>
-                      </h4>
-                    </div>
-                </div>
-                <div class="slide"><h1></h1>
-                    <h1>
-                        Billboard Chart Topper Complexity
-                    </h1>
-                    <h2>
-                        For this project, I'm using various API calls (mainly from Billboard and Genius)
-                        to find out which songs made it to the Billboard Top 100, then with Genius
-                        and NLTK, determine the linguistic complexity of the lyrics, among other things.
-                    </h2>
-                    <h2>
-                      Originally powered by Flask, will be updating to use Django.
-                    </h2>
-                    <div class="linkBox">
-                      <h4>
-                          See more on <a href="http://github.com/piresjo">my GitHub page</a> and <a href="projects.html">my projects page.</a>
-                      </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="section" id="writingSection">
-                <div class="slide active">
-                    <h1>
-                        Written Works From Over The Years
-                    </h1>
-                    <h2>
-                        Over the years, I've done some writing (sometimes for publication, sometimes personal),
-                        with topics ranging from international politics to video games.
-                    </h2>
-                    <h2>
-                        Unfortunately, I wasn't writing much while working at Amazon. Hopefully I can
-                        make up for that.
-                    </h2>
-                    <div class="linkBox">
-                      <h4>
-                          See more on <a href="writings.html">my writings page</a>.
-                      </h4>
-                    </div>
-                </div>
-                <div class="slide"><h1></h1>
-                    <h4>
-                        Writing Portfolio Page Coming Soon
-                    </h4>
-                    <div class="linkBox">
-                      <h4>
-                          See more on <a href="writings.html">my writings page</a>.
-                      </h4>
-                    </div>
-                </div>
-                <div class="slide"><h1></h1>
-                    <h4>
-                        Writing Portfolio Page Coming Soon
-                    </h4>
-                    <div class="linkBox">
-                      <h4>
-                          See more on <a href="writings.html">my writings page</a>.
-                      </h4>
-                    </div>
-                </div>
-                <div class="slide"><h1></h1>
-                    <h4>
-                        Writing Portfolio Page Coming Soon
-                    </h4>
-                    <div class="linkBox">
-                      <h4>
-                          See more on <a href="writings.html">my writings page</a>.
-                      </h4>
-                    </div>
-                </div>
-            </div>
-            <div class="section" id="linksSection">
-                <h1>Contact & Links:</h1>
-                <div id="links">
-                    <ul id="linkTable">
-                      <li id="projectsPage">
-                        <a href="projects.html">Projects</a>
-                      </li>
-                      <li id="github">
-                        <a href="http://github.com/piresjo">Code</a>
-                      </li>
-                      <li id="linkedin">
-                        <a href="https://www.linkedin.com/in/joe-pires-8b039b106">LinkedIn</a>
-                      </li>
-                      <li id="resume">
-                        <a href="ProfessionalResume.pdf">Resume</a>
-                      </li>
-                      <li id="contact">
-                        <a href="mailto:pires.joe.a@gmail.com">Contact</a>
-                      </li>
-                    </ul>
-                  </div>
-            </div>
-        </div>
+<body>
+  <!-- TODO: Something is up with the navbar -->
+  <div id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-light">
+      <a class="navbar-brand" href="#">Joe Pires - Home</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Writings</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Experimental Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
 
-        <script type="text/javascript">
-	        var myFullpage = new fullpage('#fullpage', {
-		        sectionsColor: ['#DAF7A6', '#FFC300', '#FF5733', '#C70039', '#900C3F'],
-            autoScrolling:true,
-          	scrollHorizontally: true,
-            licenseKey: '982B6F67-AE744C97-9611B861-7B75AED0'
-	        });
+  <div class="mainBody" id="introSection">
+    <h1 id="titleName">Joe Pires</h1>
+    <h3>
+      Welcome to my webpage, and allow me to introduce myself. My name is Joe. I've
+      worked as a software engineer at Amazon, and I'm a recent graduate at the
+      University of Pennsylvania with a major in political science (concentrating on
+      comparative politics) and a minor in computer science.
+    </h3>
+    <h3>
+      I'm back on east coast and looking for a job in the Greater NYC/Boston
+      area. If you're looking for someone, please reach out to me.
+    </h3>
+  </div>
 
-          //methods
-          fullpage_api.setAllowScrolling(true);
-        </script>
-    </body>
+  <div class="mainBody" id="projectSection">
+    <div id="projectIntro">
+      <h1>
+        Projects I've Been Working On
+      </h1>
+      <h3>
+        Since starting at Amazon, I haven't been able to put much work into
+        side projects, but here is a sample of what I've worked on over the years, and
+        some projects I'm starting out on.
+      </h3>
+    </div>
+    <div id="projects">
+      <div class="project" id="firstProject">
+        <h3>
+          Pac-Man GB
+        </h3>
+        <h4>
+          New project I'm starting. Using the C compiler GBDK, create a more playable
+          Game Boy version of the 1980 Namco arcade game.
+        </h4>
+      </div>
+
+      <div class="project" id="secondProject">
+        <h3>
+          JavaGalaga
+        </h3>
+        <h4>
+          One of my earliest projects. Using Swing, try to recreate the 1981 game
+          Galaga.
+        </h4>
+        <h4>
+          More info to come.
+        </h4>
+      </div>
+
+      <div class="project" id="thirdProject">
+        <h3>
+          Billboard Chart Topper Complexity
+        </h3>
+        <h4>
+          For this project, I'm using various API calls (mainly from Billboard and Genius)
+          to find out which songs made it to the Billboard Top 100, then with Genius
+          and NLTK, determine the linguistic complexity of the lyrics, among other things.
+        </h4>
+      </div>
+
+      <div class="project" id="fourthProject">
+        <h3>Influencer</h3>
+        <h4>
+          Platform to help low- and mid-level influencers find advertisers to work
+          with, and vice versa.
+        </h4>
+      </div>
+
+    </div>
+
+    <div class="linkBox">
+      <h4>
+        See more on <a href="http://github.com/piresjo">my GitHub page</a> and <a href="projects.html">my projects page.</a>
+      </h4>
+    </div>
+  </div>
+
+  <div class="mainBody" id="workSection">
+    <div id="workIntro">
+      <h1>
+        Skills and Experience
+      </h1>
+      <h3>
+        I haven't spent long in the software industry, but I've done a fair amount. From
+        working with Ivy League libraries for their digital humanities projects, to
+        improving the Alexa Reminders and Alarms feature, I've done a fair bit.
+      </h3>
+    </div>
+
+    <div id="workExperience">
+      <h2>Experience</h3>
+        <table class="skillTable">
+          <tr>
+            <th>Firm</th>
+            <th>Time Worked</th>
+            <th>More Info</th>
+          </tr>
+          <tr>
+            <td>Amazon</td>
+            <td>July 2019-June 2020</td>
+            <td>Worked with the Alexa Reminders Team</td>
+          </tr>
+          <tr>
+            <td>Amazon</td>
+            <td>May 2018 - August 2018</td>
+            <td>Interned with the Alexa Alarms Team</td>
+          </tr>
+          <tr>
+            <td>UPenn Digital Scholarship Program</td>
+            <td>September 2017 - May 2019</td>
+            <td>Developed Digital Humanities Projects For Clients</td>
+          </tr>
+          <tr>
+            <td>UPenn Digital Scholarship Program</td>
+            <td>May 2017 - August 2017</td>
+            <td>Intern - Developed Digital Humanities Projects For Clients</td>
+          </tr>
+        </table>
+
+    </div>
+
+    <div id="skills">
+      <h2>Languages, Frameworks, Etc.</h3>
+
+        <table class="skillTable">
+          <tr>
+            <td>Java</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Python</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Git</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Unix</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Latex</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Web Development (HTML/CSS/JS)</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>C++</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>PHP</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>C#</td>
+            <td>⭐⭐</td>
+          </tr>
+          <tr>
+            <td>GoLang</td>
+            <td>⭐</td>
+          </tr>
+          <tr>
+            <td>Docker</td>
+            <td>⭐</td>
+          </tr>
+          <tr>
+            <td>SQL</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+    </div>
+    <div class="linkBox">
+      <h4>
+        If you'd like to see my resume <a href="ProfessionalResume.pdf">click here.</a>
+      </h4>
+    </div>
+  </div>
+
+  <!-- TODO: Add Writing Section -->
+  <!--<div id="writingSection">
+            <h1>
+                Written Works From Over The Years
+            </h1>
+            <h2>
+                Over the years, I've done some writing (sometimes for publication, sometimes personal),
+                with topics ranging from international politics to video games.
+            </h2>
+            <h2>
+                Unfortunately, I wasn't writing much while working at Amazon. Hopefully I can
+                make up for that.
+            </h2>
+
+
+            <div class="linkBox">
+              <h4>
+                  See more on <a href="writings.html">my writings page</a>.
+              </h4>
+            </div>
+    </div> -->
+  <div id="linksSection">
+    <h1>Contact & Links:</h1>
+    <div id="links">
+      <ul id="linkTable">
+        <li id="projectsPage">
+          <a href="projects.html">Projects</a>
+        </li>
+        <li id="github">
+          <a href="http://github.com/piresjo">Code</a>
+        </li>
+        <li id="linkedin">
+          <a href="https://www.linkedin.com/in/joe-pires-8b039b106">LinkedIn</a>
+        </li>
+        <li id="resume">
+          <a href="ProfessionalResume.pdf">Resume</a>
+        </li>
+        <li id="contact">
+          <a href="mailto:pires.joe.a@gmail.com">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+
 </html>
