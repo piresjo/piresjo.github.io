@@ -51,6 +51,7 @@ html, body {
 
 #projects {
   background-color: #FFC300;
+  padding-bottom: 2.5%;
 }
 
 .project {
@@ -64,6 +65,10 @@ html, body {
 .project h3 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
+}
+
+.project a {
+  color: #581845;
 }
 
 .project h4 {
@@ -98,9 +103,16 @@ html, body {
   padding-bottom: 10px;
 }
 
+#workExperience {
+  padding-bottom: 2.5%;
+}
+
+#skills {
+  padding-bottom: 2.5%;
+}
 
 .skillTable {
-  width:85%;
+  width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
