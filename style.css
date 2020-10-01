@@ -111,10 +111,18 @@ html, body {
   padding-bottom: 2.5%;
 }
 
-.skillTable {
+#skillTable {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
+  color: #DAF7A6;
+}
+
+#langTable {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  color: #DAF7A6;
 }
 
 #links {
