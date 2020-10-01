@@ -202,3 +202,45 @@ html, body {
   margin-right: auto;
 
 }
+
+/* For the experimental page */
+#experimentalIntro {
+  color: #DAF7A6;
+  width: 100%;
+  height: 100%;
+  background-color: #FF5733;
+}
+
+#experimentalIntro h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 3%;
+}
+
+#experimentalIntro h3 {
+  font-family: 'Raleway', sans-serif;
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#experimentalButtons {
+  padding-top: 3%;
+  margin-left: 40%;
+}
+
+/* For the sudoku page */
+
+#sudokuComingSoon {
+  color: #FFC300;
+  width: 100%;
+  height: 100%;
+  margin-left: 0;
+  background-color: #900C3F;
+}
+
+#sudokuComingSoon h1 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding-top: 3%;
+}
