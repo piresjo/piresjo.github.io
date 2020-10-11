@@ -23,7 +23,7 @@
 <body>
   <!-- TODO: Something is up with the navbar -->
   <div id="navbar">
-    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html">Joe Pires - Home</a>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -76,47 +76,54 @@
       </h3>
     </div>
     <div id="projects">
-      <div class="project" id="firstProject">
-        <h3>
-          <a href="https://github.com/piresjo/Pac-Man-GB">Pac-Man GB</a>
-        </h3>
-        <h4>
-          New project I'm starting. Using the C compiler GBDK, create a more playable
-          Game Boy version of the 1980 Namco arcade game.
-        </h4>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 project" id="firstProject">
+          <h3>
+            <a href="https://github.com/piresjo/Pac-Man-GB">Pac-Man GB</a>
+          </h3>
+          <h4>
+            New project I'm starting. Using the C compiler GBDK, create a more playable
+            Game Boy version of the 1980 Namco arcade game.
+          </h4>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 project" id="secondProject">
+          <h3>
+            <a href="https://github.com/piresjo/Java-Galaga">JavaGalaga</a>
+          </h3>
+          <h4>
+            One of my earliest projects. Using Swing, try to recreate the 1981 game
+            Galaga.
+          </h4>
+          <h4>
+            More info to come.
+          </h4>
+        </div>
       </div>
 
-      <div class="project" id="secondProject">
-        <h3>
-          <a href="https://github.com/piresjo/Java-Galaga">JavaGalaga</a>
-        </h3>
-        <h4>
-          One of my earliest projects. Using Swing, try to recreate the 1981 game
-          Galaga.
-        </h4>
-        <h4>
-          More info to come.
-        </h4>
+
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 project" id="thirdProject">
+          <h3>
+            <a href="https://github.com/piresjo/Billboard-Chart-Topper-Complexity">Billboard Chart Topper Complexity</a>
+          </h3>
+          <h4>
+            For this project, I'm using various API calls (mainly from Billboard and Genius)
+            to find out which songs made it to the Billboard Top 100, then with Genius
+            and NLTK, determine the linguistic complexity of the lyrics, among other things.
+          </h4>
+        </div>
+
+        <div class="col-lg-6 col-md-6 col-sm-12 project" id="fourthProject">
+          <h3><a href="https://github.com/piresjo/Influencer">Influencer</a></h3>
+          <h4>
+            Platform to help low- and mid-level influencers find advertisers to work
+            with, and vice versa.
+          </h4>
+        </div>
       </div>
 
-      <div class="project" id="thirdProject">
-        <h3>
-          <a href="https://github.com/piresjo/Billboard-Chart-Topper-Complexity">Billboard Chart Topper Complexity</a>
-        </h3>
-        <h4>
-          For this project, I'm using various API calls (mainly from Billboard and Genius)
-          to find out which songs made it to the Billboard Top 100, then with Genius
-          and NLTK, determine the linguistic complexity of the lyrics, among other things.
-        </h4>
-      </div>
-
-      <div class="project" id="fourthProject">
-        <h3><a href="https://github.com/piresjo/Influencer">Influencer</a></h3>
-        <h4>
-          Platform to help low- and mid-level influencers find advertisers to work
-          with, and vice versa.
-        </h4>
-      </div>
 
     </div>
 
@@ -225,6 +232,61 @@
           </tr>
         </table>
     </div>
+
+    <div id="education">
+      <h2>Education</h3>
+
+        <table class="table table-hover" id="langTable">
+          <tr>
+            <th>
+              Instiution
+            </th>
+            <th>
+              Courses Taken
+            </th>
+          </tr>
+          <tr>
+            <td rowspan="5">
+              University of Pennsylvania
+            </td>
+            <td>
+              Data Structures and Algorithms
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Operating Systems
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Networks and Security
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Machine Learning
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Artificial Intgelligence
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="2">
+              Udemy
+            </td>
+            <td>
+              Complete iOS App Development Bootcamp
+            </td>
+          </tr>
+          <td>
+            Complete Web Development Bootcamp
+          </td>
+        </table>
+    </div>
+
     <div class="linkBox">
       <h4>
         If you'd like to see my resume <a href="ProfessionalResume.pdf">click here.</a>
@@ -259,6 +321,9 @@
       <ul id="linkTable">
         <li id="projectsPage">
           <a href="projects.html">Projects</a>
+        </li>
+        <li id="writingsPage">
+          <a href="writings.html">Writings</a>
         </li>
         <li id="github">
           <a href="http://github.com/piresjo">Code</a>

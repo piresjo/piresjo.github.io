@@ -54,14 +54,6 @@ html, body {
   padding-bottom: 2.5%;
 }
 
-.project {
-  padding: 10px;
-  float: left;
-  width: 50%;
-  height: 50%;
-  margin: 0;
-}
-
 .project h3 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -152,6 +144,8 @@ html, body {
 #linksSection {
   color: #FFC300;
   background-color: #C70039;
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding-top: 25%;
   padding-bottom: 25%;
@@ -208,7 +202,14 @@ html, body {
   width:80%;
   margin-left: auto;
   margin-right: auto;
+}
 
+#projectsTable {
+  color: #DAF7A6;
+}
+
+#projectsTable a {
+  color: #DAF7A6;
 }
 
 /* For the experimental page */
