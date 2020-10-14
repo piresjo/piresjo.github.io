@@ -75,10 +75,17 @@
         some projects I'm starting out on.
       </h3>
     </div>
-    <div id="projects">
 
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 project" id="firstProject">
+
+    <div id="projects" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
           <h3>
             <a href="https://github.com/piresjo/Pac-Man-GB">Pac-Man GB</a>
           </h3>
@@ -87,8 +94,7 @@
             Game Boy version of the 1980 Namco arcade game.
           </h4>
         </div>
-
-        <div class="col-lg-6 col-md-6 col-sm-12 project" id="secondProject">
+        <div class="carousel-item">
           <h3>
             <a href="https://github.com/piresjo/Java-Galaga">JavaGalaga</a>
           </h3>
@@ -100,11 +106,7 @@
             More info to come.
           </h4>
         </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 project" id="thirdProject">
+        <div class="carousel-item">
           <h3>
             <a href="https://github.com/piresjo/Billboard-Chart-Topper-Complexity">Billboard Chart Topper Complexity</a>
           </h3>
@@ -114,8 +116,7 @@
             and NLTK, determine the linguistic complexity of the lyrics, among other things.
           </h4>
         </div>
-
-        <div class="col-lg-6 col-md-6 col-sm-12 project" id="fourthProject">
+        <div class="carousel-item">
           <h3><a href="https://github.com/piresjo/Influencer">Influencer</a></h3>
           <h4>
             Platform to help low- and mid-level influencers find advertisers to work
@@ -123,8 +124,14 @@
           </h4>
         </div>
       </div>
-
-
+      <a class="carousel-control-prev" href="#projects" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#projects" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
 
     <div class="linkBox">
