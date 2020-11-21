@@ -3,10 +3,10 @@ html, body {
 }
 
 #introSection {
-  color: #900C3F;
+  color: #E7E090;
   width: 100%;
   height: 100%;
-  background-color: #DAF7A6;
+  background-color: #3C2C26;
 }
 
 #introSection h1 {
@@ -27,10 +27,10 @@ html, body {
 }
 
 #projectSection {
-  color: #581845;
+  color: #9F9A52;
   position: relative;
   width: 100%;
-  background-color: #FFC300;
+  background-color: #4F5840;
   display: flex;
   flex-direction: column;
   padding-top: 7.5%;
@@ -51,7 +51,7 @@ html, body {
 }
 
 #projects {
-  background-color: #FFC300;
+  background-color: #4F5840;
   padding-top: 5%;
   padding-bottom: 10%;
 }
@@ -65,7 +65,7 @@ html, body {
 }
 
 .carousel-item a {
-  color: #581845;
+  color: #9F9A52;
 }
 
 .carousel-item h4 {
@@ -75,8 +75,8 @@ html, body {
 }
 
 #workSection {
-  color: #DAF7A6;
-  background-color: #FF5733;
+  color: #E7E090;
+  background-color: #7D7857;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -114,14 +114,14 @@ html, body {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  color: #DAF7A6;
+  color: #E7E090;
 }
 
 #langTable {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
-  color: #DAF7A6;
+  color: #E7E090;
 }
 
 #links {
@@ -149,8 +149,8 @@ html, body {
 }
 
 #linksSection {
-  color: #FFC300;
-  background-color: #C70039;
+  color: #9F9A52;
+  background-color: #4F5840;
   height: 100%;
   width: 100%;
   margin: 0;
@@ -170,27 +170,11 @@ html, body {
   margin-left: 2%;
 }
 
-/* For the writings page */
-
-#writingComingSoon {
-  color: #FFC300;
-  width: 100%;
-  height: 100%;
-  margin-left: 0;
-  background-color: #900C3F;
-}
-
-#writingComingSoon h1 {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  padding-top: 3%;
-}
-
 /* For the projects page */
 
 #projectBody {
-  color: #DAF7A6;
-  background-color: #900C3F;
+  color: #9F9A52;
+  background-color: #4F5840;
 }
 
 #projectPageIntro h1 {
@@ -212,19 +196,19 @@ html, body {
 }
 
 #projectsTable {
-  color: #DAF7A6;
+  color: #9F9A52;
 }
 
 #projectsTable a {
-  color: #DAF7A6;
+  color: #9F9A52;
 }
 
 /* For the experimental page */
 #experimentalIntro {
-  color: #DAF7A6;
+  color: #9F9A52;
   width: 100%;
   height: 100%;
-  background-color: #FF5733;
+  background-color: #7D7857;
 }
 
 #experimentalIntro h1 {
@@ -248,11 +232,11 @@ html, body {
 /* For the sudoku page */
 
 #sudokuComingSoon {
-  color: #FFC300;
+  color: #9F9A52;
+  background-color: #4F5840;
   width: 100%;
   height: 100%;
   margin-left: 0;
-  background-color: #900C3F;
 }
 
 #sudokuComingSoon h1 {
