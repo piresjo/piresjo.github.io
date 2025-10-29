@@ -1,0 +1,83 @@
+.main-text {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.title-text {
+  font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}
+
+
+.section-header-text {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.education-upper-row {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+}
+
+.education-lower-row {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 12px;
+}
+
+body {
+    background-color: #FDF4E3;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+hr {
+    background-color: #705335;
+    border-radius: 2px;
+    height: 4px;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    text-align: justify;
+}
+
+.skillset-bar {
+    background-color: #721422;
+}
+
+.navigation-bar {
+    background-color: #721422;
+}
+
+.main {
+    padding-top: 5rem;
+}
+
+.navbar-text {
+    color:#D5C7BC;
+}
+
