@@ -42,10 +42,11 @@
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: italic;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 body {
+    padding-top:5rem;
     background-color: #FDF4E3;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -73,11 +74,30 @@ p {
     background-color: #721422;
 }
 
-.main {
-    padding-top: 5rem;
-}
-
 .navbar-text {
     color:#D5C7BC;
 }
 
+.navbar-text:hover {
+    color:#D5C7BC;
+}
+
+.navbar-dropdown {
+  background-color: #D5C7BC;
+}
+
+.navbar-dropdown-link:hover {
+  background-color: #FDF4E3;
+}
+
+@media screen and (min-width: 1200px) {
+  .about-section-text {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  .experience-table {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
