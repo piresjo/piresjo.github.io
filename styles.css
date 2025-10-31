@@ -19,6 +19,10 @@
     "ELXP" 0;
 }
 
+.floppy {
+  filter: invert(85%) sepia(24%) saturate(208%) hue-rotate(335deg) brightness(110%) contrast(98%);
+}
+
 
 .section-header-text {
   font-family: "Tektur", sans-serif;
@@ -52,16 +56,6 @@ body {
     padding-right: 1rem;
 }
 
-hr {
-    background-color: #705335;
-    border-radius: 2px;
-    height: 4px;
-    width: 80%;
-    margin: auto;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
 p {
     text-align: justify;
 }
@@ -88,6 +82,84 @@ p {
 
 .navbar-dropdown-link:hover {
   background-color: #FDF4E3;
+}
+
+.skill-header-row {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+  padding-bottom: 1rem;
+}
+
+.skill-text {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color:#705335;
+}
+
+.section-line {
+    background-color: #705335;
+    border-radius: 2px;
+    height: 4px;
+    width: 80%;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.company-text {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 28px;
+  color: #721422;
+}
+
+.job-text {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 18px;
+  color: #705335;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.roles-text {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 14px;
+  color: #705335;
+}
+
+.skills-used-header-text {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 14px;
+  color: #705335;
+}
+
+.skills-used-text {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  font-size: 18px;
+  color:#721422;
+  padding-bottom: 1rem;
 }
 
 @media screen and (min-width: 1200px) {
